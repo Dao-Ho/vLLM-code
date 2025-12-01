@@ -1,10 +1,10 @@
 import typer
 from rich.console import Console
-from rich.markdown import Markdown
 from .agent import Agent
 
 app = typer.Typer()
 console = Console()
+
 
 @app.command()
 def chat():
@@ -21,13 +21,14 @@ def chat():
             if user_input.lower() in ["exit", "quit"]:
                 console.print("[bold yellow]Goodbye![/bold yellow]")
                 break
-            
+
             response = agent.chat(user_input)
             console.print(f"[bold blue]Agent:[/bold blue] {response}")
-            
+
         except KeyboardInterrupt:
             console.print("\n[bold yellow]Goodbye![/bold yellow]")
             break
+
 
 if __name__ == "__main__":
     app()
