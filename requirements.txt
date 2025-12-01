@@ -1,0 +1,4 @@
+typer
+rich
+pydantic
+pydantic-settings
