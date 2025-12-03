@@ -1,8 +1,6 @@
 # vLLM-code
-A coding agent powered by vLLM
+A CLI-native coding agent powered by vLLM
 
-The best tools shouldn't be locked behind paywalls. Growing up, I watched accessibility shape who could build and who couldn't. Today's coding agents are powerful, but they're expensive and out of reach for many developers.
-
-vLLM changes that. By running locally, it puts the power of AI-assisted coding directly in your hands: no subscriptions, no rate limits, no privacy breach. Just you and your code.
+A local-first coding agent that runs entirely on your machine. Built with vLLM for private (and free) inference, designed for developers who want full control over their development environment without external dependencies.
 
 WIP
